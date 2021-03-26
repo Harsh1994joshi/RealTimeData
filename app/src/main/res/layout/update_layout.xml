@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/u_name"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:hint="Update Name"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/u_email"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Update Email"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/u_contact"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Update Contact"
+        android:inputType="phone"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/updatebtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Update"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/deletebtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Delete"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
